@@ -6,7 +6,7 @@ class CatGoods:
     
     @property
     def price_with_tax(self):
-        return float(self.price * 1.1)
+        return int(self.price * 1.1)
 
     @property
     def is_instock(self):
